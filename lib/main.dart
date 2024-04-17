@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moviesapp/homepage/browse/filteredMovies.dart';
 import 'package:moviesapp/homepage/movies/MovieScreen.dart';
-import 'package:moviesapp/homepage/movies/movieDetails.dart';
 import 'package:moviesapp/shared/colors.dart';
 import 'package:moviesapp/splash.dart';
 
@@ -32,7 +31,6 @@ class MyApp extends StatelessWidget {
         routes: {
           FilteredMovies.routeName:(context)=>FilteredMovies(),
           MovieScreen.routeName:(context)=>MovieScreen(),
-          MovieDetails.routeName:(context)=>MovieDetails(),
 
         },
         //initialRoute: FilteredMovies.routeName,
